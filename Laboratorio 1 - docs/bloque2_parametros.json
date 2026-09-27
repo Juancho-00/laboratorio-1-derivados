@@ -1,0 +1,92 @@
+{
+  "n_paths": 10000,
+  "n_dias_sim": 504,
+  "n_trimestres": 8,
+  "hist_garch_anios": 10,
+  "dist_garch": "normal",
+  "garch_omega_alpha_beta": {
+    "LLY": [
+      0.27699963793124877,
+      0.090027949927382,
+      0.8390206554241934
+    ],
+    "ORCL": [
+      0.23091257831084958,
+      0.14689826214512922,
+      0.8303909342691108
+    ],
+    "GD": [
+      0.12546047130412377,
+      0.09422189552954101,
+      0.8412675208692159
+    ]
+  },
+  "vol_largo_plazo_garch": {
+    "LLY": 0.3136601911718789,
+    "ORCL": 0.5061833025448859,
+    "GD": 0.221379928236678
+  },
+  "acciones": {
+    "LLY": 4230,
+    "ORCL": 10749,
+    "GD": 10407
+  },
+  "contratos_85pct": {
+    "LLY": 36,
+    "ORCL": 91,
+    "GD": 88
+  },
+  "portafolio_0": 9999080.268722534,
+  "cobertura_preliminar": {
+    "tipo": "protective put ATM",
+    "moneyness": 1.0,
+    "T_anios": 2,
+    "K": {
+      "LLY": 1181.8900146484375,
+      "ORCL": 139.5399932861328,
+      "GD": 336.2900085449219
+    },
+    "prima_x_accion": {
+      "LLY": 152.73276916741503,
+      "ORCL": 32.40116098969023,
+      "GD": 30.497465743518447
+    },
+    "prima_total_usd": 1113066.2325518376
+  },
+  "var_no_cubierto": {
+    "T1 (primer trimestre)": {
+      "VaR_95_USD": 1028490.9375,
+      "VaR_95_%cap": 0.1028490960597992,
+      "ES_95_USD": 1427431.125,
+      "VaR_99_USD": 1689885.25,
+      "VaR_99_%cap": 0.16898852586746216,
+      "ES_99_USD": 1966164.125
+    },
+    "T8 (fin ventana, 2 años)": {
+      "VaR_95_USD": -212822.5,
+      "VaR_95_%cap": -0.021282250061631203,
+      "ES_95_USD": 965762.3125,
+      "VaR_99_USD": 1664255.125,
+      "VaR_99_%cap": 0.16642551124095917,
+      "ES_99_USD": 2504970.5
+    }
+  },
+  "var_cubierto_vs_no": {
+    "T1 (primer trimestre)": {
+      "VaR_95_no_cubierto": 1028490.9375,
+      "VaR_95_cubierto": 1810505.4384058206,
+      "reduccion_VaR95_%": -0.760351377336099,
+      "VaR_99_no_cubierto": 1689885.25,
+      "VaR_99_cubierto": 2210924.6815012563,
+      "reduccion_VaR99_%": -0.3083282912264347
+    },
+    "T8 (fin ventana, 2 años)": {
+      "VaR_95_no_cubierto": -212822.5,
+      "VaR_95_cubierto": 1257654.7106816766,
+      "reduccion_VaR95_%": 6.909406715369271,
+      "VaR_99_no_cubierto": 1664255.125,
+      "VaR_99_cubierto": 2434581.668820105,
+      "reduccion_VaR99_%": -0.4628656581845316
+    }
+  }
+}

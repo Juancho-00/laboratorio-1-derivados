@@ -1,0 +1,4 @@
+ticker,empresa,sector,industria,mercado,moneda,fuente_precios_y_dividendos,descarga_utc,serie_retornos
+LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,NYSE,USD,Yahoo Finance (yfinance 1.7.0),2026-09-27 07:21,log diarios sobre Adj Close
+ORCL,Oracle Corporation,Technology,Software - Infrastructure,NYSE,USD,Yahoo Finance (yfinance 1.7.0),2026-09-27 07:21,log diarios sobre Adj Close
+GD,General Dynamics Corporation,Industrials,Aerospace & Defense,NYSE,USD,Yahoo Finance (yfinance 1.7.0),2026-09-27 07:21,log diarios sobre Adj Close
